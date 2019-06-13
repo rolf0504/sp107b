@@ -171,7 +171,7 @@ void Eif(int elseBegin, char* te) {
     else
       printf("D=D-M\n");
     printf("@L%d\n", elseBegin);
-    printf("D;JGT\n\n");
+    printf("D;JGE\n\n");
   }
 }
 
