@@ -1,4 +1,5 @@
 第3次作業  順便當做期末專案
+目的是可產生if()的cpu0組合語言
 $ make && ./compiler.exe test/iftest.c
 gcc -std=c99 -O0 lexer.c compiler.c main.c -o compiler
 i = 0;
